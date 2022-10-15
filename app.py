@@ -25,7 +25,7 @@ def transcribe(audio):
     
  
 gr.Interface(
-    title = 'OpenAI Whisper ASR Gradio Web UI', 
+    title = 'OpenAI Whisper', 
     fn=transcribe, 
     inputs=[
         gr.inputs.Audio(source="microphone", type="filepath")
